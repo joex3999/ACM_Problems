@@ -1,6 +1,5 @@
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -42,11 +41,6 @@ public class LCF_520B_TwoButtons {
 	    private static class State {
 	        public final int val;
 	        public final int pushes;
-
-	        public State() {
-	            this.val = 0;
-	            this.pushes = 0;
-	        }
 
 	        public State(int v, int p) {
 	            this.val = v;

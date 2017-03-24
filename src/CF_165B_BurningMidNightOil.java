@@ -9,7 +9,7 @@ public class CF_165B_BurningMidNightOil {
 		int numSoFar = 0; 
 		for(int i=0 ; i<700;i++){
 	
-			int temp =(int) num/(int)Math.pow(divisor, i);
+			int temp =num/(int)Math.pow(divisor, i);
 	
 			if(temp!=0){
 				numSoFar+=temp;

@@ -1,11 +1,16 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
 
 class CF_10114_LoansomeCarBuyers {
 	public static void main(String[] args)throws Exception{
 		Scanner sc = new Scanner(System.in);
-		int i, months, depr, month;
-		double percentage, payoff, loan, worth, payment;
+		int months, depr, month;
+		double payoff, loan, worth, payment;
 		Double rate;
 		Map<Integer, Double> map = new HashMap<Integer, Double>();
 		while((months = sc.nextInt()) >= 0) {

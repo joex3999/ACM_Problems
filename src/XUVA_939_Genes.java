@@ -51,7 +51,7 @@ public class XUVA_939_Genes {
 			}
 			if(!in){
 				if(parents.containsKey(second)){
-					Pair temp = (Pair)parents.get(second);
+					Pair temp = parents.get(second);
 					parents.put(second, new Pair(temp.father,first));
 					String one = genes.get(temp.father);
 					String secondo = genes.get(first);

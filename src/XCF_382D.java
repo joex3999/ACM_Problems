@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 public class XCF_382D {
 	public static void main(String[] args) throws Exception {
-			Scanner sc = new Scanner(System.in);
+			new Scanner(System.in);
 	}
 
 	static class Scanner {

@@ -1,5 +1,5 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 public class CF_96A_Football {
 public static void main(String[] args) throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

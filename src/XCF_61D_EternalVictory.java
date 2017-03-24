@@ -55,6 +55,7 @@ public class XCF_61D_EternalVictory {
 			cost = b;
 		}
 		
+		@Override
 		public int compareTo(Edge e)
 		{
 			if(cost != e.cost)

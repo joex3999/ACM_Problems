@@ -14,7 +14,6 @@ int result = 0;
 while(A-B>0){
 	result += A / B;
     A %= B;
-    long temp = A ;
     A = B ;
     B = A ;
 }

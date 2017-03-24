@@ -143,6 +143,7 @@ static  class Vector {
 
 	 Point(double a, double b) { x = a; y = b; }  
 		
+		@Override
 		public int compareTo(Point p)
 		{
 			if(Math.abs(x - p.x) > EPS) return x > p.x ? 1 : -1;
@@ -209,7 +210,7 @@ public static void main(String[]args)throws Exception{
 	square[4]= edge1;
 	Polygon SQ = new Polygon (square);
 	for(int i = 0 ; i<N;i++){
-		if(position.ccw(pointsfirst[i],pointssecond[i], position)){
+		if(Point.ccw(pointsfirst[i],pointssecond[i], position)){
 			SQ = SQ.cutPolygon(pointsfirst[i], pointssecond[i]);
 		}else{
 			SQ=SQ.cutPolygon(pointssecond[i], pointsfirst[i]);

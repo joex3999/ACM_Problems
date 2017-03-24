@@ -32,7 +32,6 @@ public class XQUVA_11413_FillTheContainers {
 			}
 			
 			for(int i =m ;i<vessels.length;i++){
-				int hold = vessels[vessels.length-i-1];
 				for(int j =0 ; j<containers.length;j++){
 					
 				}

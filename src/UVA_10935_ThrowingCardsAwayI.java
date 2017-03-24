@@ -22,7 +22,7 @@ public class UVA_10935_ThrowingCardsAwayI {
 			for (int i = 1; i <= n; i++) {
 				total.addLast(i);
 			}
-			int size = total.size();
+			total.size();
 
 			while (!total.isEmpty()) {
 				answer = total.removeFirst();

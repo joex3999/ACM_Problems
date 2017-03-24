@@ -22,7 +22,7 @@ public class HR_ProjectEuler_145 {
 	String an = ""+answer;
 	boolean increment = true ;
 	for(int i =0 ; i<an.length();i++){
-		int num = (int)an.charAt(i);
+		int num = an.charAt(i);
 
 		if(num%2==0){
 			increment = false ;

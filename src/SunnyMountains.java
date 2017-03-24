@@ -40,7 +40,7 @@ double max = 0.0 ;
 				 double y1= x[l+1].y;
 				 double x0 = x[l].x ;
 				 double x1 = x[l+1].x;
-				double m = (double)(y1 - y0) / (x1 - x0);
+				double m = (y1 - y0) / (x1 - x0);
 				double b = y0 - m * x0;
 				
 			double	yc = max;
@@ -63,6 +63,7 @@ static class Point implements Comparable<Point> {
 		this.x = x; this.y = y;
 	}
 	
+	@Override
 	public int compareTo(Point p)
 	{
 		if(Math.abs(x - p.x) > EPS) return x > p.x ? 1 : -1;

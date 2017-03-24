@@ -13,11 +13,16 @@
  * @date 12/11/2010
  *
  */
-import java.awt.geom.*;
+import static java.lang.Integer.parseInt;
+
+import java.awt.geom.Point2D;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.text.NumberFormat;
-import java.util.*;
-import java.io.*;
-import static java.lang.Integer.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Locale;
+import java.util.StringTokenizer;
 
 public class Acm10065 {
 
@@ -47,7 +52,8 @@ public class Acm10065 {
         }
         final Point2D P = p;
         Arrays.sort(pts, new Comparator<Point2D>() {
-            public int compare(Point2D o1, Point2D o2) {
+            @Override
+			public int compare(Point2D o1, Point2D o2) {
                 if (o1 == P) {
                     return -1;
                 }

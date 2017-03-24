@@ -1,7 +1,7 @@
 
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class CF_733A_GrassHopper {
 	public static void main(String[] args) throws Exception {

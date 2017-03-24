@@ -16,9 +16,8 @@ public static void main(String[] args) throws Exception {
 	Scanner sc = new Scanner(System.in);
 	long start = sc.nextLong();
 	long end = sc.nextLong();
-	double minimumBits =(double)Math.ceil(( Math.log(start)/Math.log(2)));
-	double maximumBits =(double)Math.ceil(( Math.log(end)/Math.log(2)));
-	int answer = 0 ;
+	double minimumBits =Math.ceil(( Math.log(start)/Math.log(2)));
+	double maximumBits =Math.ceil(( Math.log(end)/Math.log(2)));
 	for(double i = minimumBits;i<=maximumBits;i++){
 		String x =  "0";
 		String y = "0";
@@ -31,7 +30,6 @@ public static void main(String[] args) throws Exception {
 		int evalue = Integer.parseInt(y);
 				
 	while(svalue<=evalue){
-		answer++;
 		svalue = ((svalue<<1)+1)&0x11;
 	}
 	}

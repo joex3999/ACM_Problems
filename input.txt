@@ -1,0 +1,159 @@
+
+|  In English  По-русски
+yoyo3999 | Logout
+
+    
+HOMECONTESTSGYMPROBLEMSETGROUPSRATINGAPIRCC VK CUP 
+
+
+
+  
+→ Pay attention
+Before contest
+Educational Codeforces Round 18
+3 days
+
+  
+→ yoyo3999
+
+yoyo3999
+User''s contest rating in Codeforces community  Rating: 1344
+User''s contribution into Codeforces community  Contribution: 0
+Settings
+Blog
+Teams
+Submissions
+Favourites
+Groups
+Talks
+Contests
+
+  
+→ Settings
+ Show tags for unsolved problems
+  
+→ Last unsolved
+#	Name	Last submission
+50B	Choosing Symbol Pairs	24336356
+204B	Little Elephant and Cards	23788442
+740A	Alyona and copybooks	22511634
+734D	Anton and Chess	22277254
+101102F	Exchange	21422068
+100814B	Unlucky Teacher	21262764
+100814A	Arcade Game	21262065
+101061E	Playing with numbers	20302470
+703B	Mishka and trip	19964766
+675A	Infinite Sequence	18380798
+498A	Crazy Town	18247299
+617C	Watering Flowers	18189522
+PROBLEMSSUBMITSTATUSSTANDINGSCUSTOM TEST
+    
+All problems  
+  
+#	Name	 	Solved  Sort asc.
+595A	Vitaly and Night implementation	 Submit  Add to favourites	 x6548
+463B	Caisa and Pylons math	 Submit  Add to favourites	 x6538
+320A	Magic Numbers brute force, greedy	 Submit  Add to favourites	 x6537
+363B	Fence brute force, dp	 Submit  Add to favourites	 x6517
+334A	Candy Bags implementation	 Submit  Add to favourites	 x6498
+712A	Memory and Crow implementation	 Submit  Add to favourites	 x6482
+610A	Pasha and Stick combinatorics, math	 Submit  Add to favourites	 x6479
+757A	Gotta Catch Em' All! implementation	 Submit  Add to favourites	 x6454
+507B	Amr and Pins geometry, math	 Submit  Add to favourites	 x6423
+554A	Kyoya and Photobooks brute force, math	 Submit  Add to favourites	 x6420
+581B	Luxurious Houses implementation	 Submit  Add to favourites	 x6371
+534A	Exam constructive algorithms, implementation	 Submit  Add to favourites	 x6368
+535B	Tavas and SaDDas bitmasks, brute force, implementation	 Submit  Add to favourites	 x6361
+552A	Vanya and Table implementation, math	 Submit  Add to favourites	 x6349
+702A	Maximum Increase dp, greedy, implementation	 Submit  Add to favourites	 x6321
+750B	New Year and North Pole implementation	 Submit  Add to favourites	 x6293
+233A	Perfect Permutation implementation, math	 Submit  Add to favourites	 x6289
+258A	Little Elephant and Bits greedy, math	 Submit  Add to favourites	 x6276
+508B	Anton and currency you all know greedy	 Submit  Add to favourites	 x6264
+766B	Mahmoud and a Triangle constructive algorithms, geometry, greedy, sortings	 Submit  Add to favourites	 x6250
+721B	Passwords sortings, strings	 Submit  Add to favourites	 x6245
+735A	Ostap and Grasshopper implementation, strings	 Submit  Add to favourites	 x6242
+352A	Jeff and Digits brute force, implementation, math	 Submit  Add to favourites	 x6231
+710A	King Moves implementation	 Submit  Add to favourites	 x6204
+38A	Army implementation	 Submit  Add to favourites	 x6198
+714A	Meeting of Old Friends math	 Submit  Add to favourites	 x6194
+404A	Valera and X implementation	 Submit  Add to favourites	 x6194
+499A	Watching a movie implementation	 Submit  Add to favourites	 x6187
+538B	Quasi Binary constructive algorithms, dp, greedy, implementation	 Submit  Add to favourites	 x6177
+723B	Text Document Analysis expression parsing, implementation	 Submit  Add to favourites	 x6175
+381A	Sereja and Dima greedy, implementation, two pointers	 Submit  Add to favourites	 x6159
+580B	Kefa and Company binary search, sortings, two pointers	 Submit  Add to favourites	 x6152
+476B	Dreamoon and WiFi bitmasks, brute force, combinatorics, dp, math, probabilities	 Submit  Add to favourites	 x6151
+586A	Alena's Schedule implementation	 Submit  Add to favourites	 x6148
+465A	inc ARG implementation	 Submit  Add to favourites	 x6122
+580C	Kefa and Park dfs and similar, trees	 Submit  Add to favourites	 x6115
+672B	Different is Good constructive algorithms, implementation, strings	 Submit  Add to favourites	 x6106
+447B	DZY Loves Strings greedy, implementation	 Submit  Add to favourites	 x6106
+483A	Counterexample brute force, implementation	 Submit  Add to favourites	 x6100
+583B	Robot's Task implementation	 Submit  Add to favourites	 x6051
+764B	Timofey and cubes constructive algorithms, implementation	 Submit  Add to favourites	 x6047
+629A	Far Relative’s Birthday Cake brute force, constructive algorithms, implementation	 Submit  Add to favourites	 x6040
+262A	Roma and Lucky Numbers implementation	 Submit  Add to favourites	 x6017
+488A	Giga Tower brute force	 Submit  Add to favourites	 x6016
+550C	Divisibility by Eight brute force, dp, math	 Submit  Add to favourites	 x6013
+682A	Alyona and Numbers constructive algorithms, number theory	 Submit  Add to favourites	 x6005
+279B	Books binary search, brute force, implementation, two pointers	 Submit  Add to favourites	 x6004
+545B	Equidistant String greedy	 Submit  Add to favourites	 x6002
+548A	Mike and Fax brute force, implementation	 Submit  Add to favourites	 x6000
+456B	Fedya and Maths math, number theory	 Submit  Add to favourites	 x5999
+768A	Oath of the Night's Watch constructive algorithms, sortings	 Submit  Add to favourites	 x5997
+743A	Vladik and flights constructive algorithms, greedy, implementation	 Submit  Add to favourites	 x5995
+9A	Die Roll math, probabilities	 Submit  Add to favourites	 x5989
+43A	Football strings	 Submit  Add to favourites	 x5984
+680B	Bear and Finding Criminals constructive algorithms, implementation	 Submit  Add to favourites	 x5982
+557A	Ilya and Diplomas greedy, implementation	 Submit  Add to favourites	 x5963
+699A	Launch of Collider implementation	 Submit  Add to favourites	 x5962
+701B	Cells Not Under Attack math	 Submit  Add to favourites	 x5928
+617B	Chocolate combinatorics	 Submit  Add to favourites	 x5922
+3A	Shortest path of the king greedy, shortest paths	 Submit  Add to favourites	 x5913
+791A	Bear and Big Brother implementation	 Submit  Add to favourites	 x5905
+445A	DZY Loves Chessboard dfs and similar, implementation	 Submit  Add to favourites	 x5899
+709A	Juicer implementation	 Submit  Add to favourites	 x5868
+549A	Face Detection implementation	 Submit  Add to favourites	 x5853
+463A	Caisa and Sugar implementation	 Submit  Add to favourites	 x5851
+698A	Vacations dp	 Submit  Add to favourites	 x5829
+525A	Vitaliy and Pie greedy, hashing	 Submit  Add to favourites	 x5821
+558A	Lala Land and Apple Trees brute force, implementation, sortings	 Submit  Add to favourites	 x5799
+278A	Circle Line implementation	 Submit  Add to favourites	 x5783
+2A	Winner hashing, implementation	 Submit  Add to favourites	 x5759
+758B	Blown Garland implementation	 Submit  Add to favourites	 x5741
+219A	k-String implementation, strings	 Submit  Add to favourites	 x5720
+34B	Sale greedy, sortings	 Submit  Add to favourites	 x5720
+620A	Professor GukiZ's Robot implementation, math	 Submit  Add to favourites	 x5718
+146A	Lucky Ticket implementation	 Submit  Add to favourites	 x5717
+369A	Valera and Plates implementation	 Submit  Add to favourites	 x5702
+545C	Woodcutters dp, greedy	 Submit  Add to favourites	 x5700
+439B	Devu, the Dumb Guy implementation, sortings	 Submit  Add to favourites	 x5676
+624A	Save Luke math	 Submit  Add to favourites	 x5660
+514B	Han Solo and Lazer Gun brute force, data structures, geometry, math	 Submit  Add to favourites	 x5651
+472B	Design Tutorial: Learn from Life	 Submit  Add to favourites	 x5637
+92A	Chips implementation, math	 Submit  Add to favourites	 x5633
+435A	Queue on Bus Stop implementation	 Submit  Add to favourites	 x5629
+707B	Bakery graphs	 Submit  Add to favourites	 x5623
+604A	Uncowed Forces implementation	 Submit  Add to favourites	 x5609
+465B	Inbox (100500) implementation	 Submit  Add to favourites	 x5608
+427B	Prison Transfer data structures, implementation	 Submit  Add to favourites	 x5605
+780A	Andryusha and Socks implementation	 Submit  Add to favourites	 x5564
+776A	A Serial Killer implementation	 Submit  Add to favourites	 x5564
+574A	Bear and Elections implementation	 Submit  Add to favourites	 x5545
+152A	Marks implementation	 Submit  Add to favourites	 x5536
+651B	Beautiful Paintings greedy, sortings	 Submit  Add to favourites	 x5515
+711B	Chris and Magic Square constructive algorithms	 Submit  Add to favourites	 x5514
+670B	Game of Robots implementation	 Submit  Add to favourites	 x5511
+567B	Berland National Library implementation	 Submit  Add to favourites	 x5506
+285C	Building Permutation greedy, implementation, sortings	 Submit  Add to favourites	 x5506
+75A	Life Without Zeros implementation	 Submit  Add to favourites	 x5505
+588B	Duff in Love math	 Submit  Add to favourites	 x5495
+165A	Supercentral Point implementation	 Submit  Add to favourites	 x5495
+592B	The Monster and the Squirrel math	 Submit  Add to favourites	 x5494
+← 1 2 3 4 5 ... 33 34 →
+
+Codeforces (c) Copyright 2010-2017 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+Server time: Mar/24/2017 22:05:50UTC+2 (c2).
+Desktop version, switch to mobile version.

@@ -11,7 +11,7 @@ public class UVA_10226_HardwoodSpecies {
 public static void main(String[]args)throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	int n = Integer.parseInt(br.readLine());
-	String useless = br.readLine();
+	br.readLine();
 while(n-->0){
 	String s = null ;
 	int total= 0 ;

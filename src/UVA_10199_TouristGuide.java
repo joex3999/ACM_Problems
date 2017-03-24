@@ -3,7 +3,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.StringTokenizer;
@@ -20,6 +19,7 @@ public Letter(String g ){
 	s = g ;
 }
 
+	@Override
 	public int compareTo(Object arg0) {
 	String s2 = ""+arg0;
 		return s.compareTo(s2);

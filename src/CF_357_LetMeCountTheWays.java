@@ -24,7 +24,7 @@ class CF_357_LetMeCountTheWays {
 	}
 	
 public static void main(String[] args)throws Exception{
-BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+new BufferedReader(new InputStreamReader(System.in));
 Scanner sc = new Scanner(System.in);
 dp = new int [30005][5];
 

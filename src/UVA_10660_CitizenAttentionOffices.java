@@ -12,7 +12,7 @@ public class UVA_10660_CitizenAttentionOffices {
     public static void main(String[]args) throws Exception {
         Scanner sc = new Scanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
-        StringBuilder sb = new StringBuilder();
+        new StringBuilder();
         int T = sc.nextInt();
         while (T -- > 0)
         {

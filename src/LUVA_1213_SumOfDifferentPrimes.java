@@ -22,9 +22,7 @@ public class LUVA_1213_SumOfDifferentPrimes {
 //	}
 public static void main(String[]args)throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	StringBuilder sb = new StringBuilder();
-	int x = 22 ;
-	int number = 0 ;
+	new StringBuilder();
 	Primes = new int [188];
 	int j = 0 ;
 	for(int i=0;i<=1120;i++){
@@ -37,7 +35,7 @@ if(isPrime(i)){
 
 	while(true){
 	StringTokenizer st = new StringTokenizer(br.readLine());
-	int n = Integer.parseInt(st.nextToken());
+	Integer.parseInt(st.nextToken());
 size = Integer.parseInt(st.nextToken());
 	memset = new int [190][1125];
 	for(int i =0 ; i <190;i++)

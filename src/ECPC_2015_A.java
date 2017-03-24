@@ -1,6 +1,6 @@
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 public class ECPC_2015_A {
 	static int number ;
 

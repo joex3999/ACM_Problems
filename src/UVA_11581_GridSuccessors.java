@@ -51,7 +51,7 @@ public class UVA_11581_GridSuccessors {
 				String s = sc.nextLine();
 
 				for (int j = 0; j < 3; j++) {
-					arr[i][j] = (int) s.charAt(j)-48;
+					arr[i][j] = s.charAt(j)-48;
 				}
 			}
 			int counter = 0;

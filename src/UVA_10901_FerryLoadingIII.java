@@ -41,7 +41,7 @@ public class UVA_10901_FerryLoadingIII {
 						st.nextToken());
 
 			}
-			for (int i = 0; true; i++) {
+			for (; true;) {
 				ArrayList<Pair> onBoard = new ArrayList<Pair>();
 				Pair s = new Pair(0, 0, "X");
 				if (fpos < ferr.length) {

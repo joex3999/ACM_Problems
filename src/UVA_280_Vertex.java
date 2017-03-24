@@ -30,7 +30,6 @@ public class UVA_280_Vertex {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		boolean first = true;
 		StringBuilder sb = new StringBuilder();
 		while (true) {
 			V = Integer.parseInt(br.readLine());

@@ -22,22 +22,16 @@ public class SPOJ_ANeedleInAHayStack {
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(System.in);
 	while(sc.ready()){
-		int n = sc.nextInt();
+		sc.nextInt();
 		String f = sc.nextLine();
 		String g = sc.nextLine(); 
 		char[] st = (f + "$" + g).toCharArray();
 		int[] arr = prefixFunction(st);
-		int first = 0;
-		int second = 0;
-		boolean in = false ;
-		
-		
 		for (int i = 0; i < arr.length; i++) {
 
 		
 			if (arr[i]== f.length()) {
 				System.out.println(i-f.length()-f.length());
-				in = true ;
 				
 			}
 		}

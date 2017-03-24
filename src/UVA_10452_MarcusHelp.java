@@ -16,7 +16,6 @@ public class UVA_10452_MarcusHelp {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
 		StringBuilder sb = new StringBuilder();
-		char[] word = { 'I', 'E', 'H', 'O', 'V', 'A', '#' };
 		while (T-- > 0) {
 			n = sc.nextInt();
 			m = sc.nextInt();

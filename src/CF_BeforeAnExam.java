@@ -12,7 +12,6 @@ public class CF_BeforeAnExam {
 		int[] arr = new int[d];
 		int[] min = new int[d];
 		int[] max = new int[d];
-		boolean can = true ;
 		for(int i =0 ; i<d;i++){
 			min[i] = sc.nextInt();
 			max[i]= sc.nextInt();

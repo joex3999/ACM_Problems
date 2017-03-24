@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 public class CF_25A_IQtest {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
+		Integer.parseInt(br.readLine());
 		String[] temp = br.readLine().split(" ");
 		int x = Integer.parseInt(temp[0]);
 		int y = Integer.parseInt(temp[1]);

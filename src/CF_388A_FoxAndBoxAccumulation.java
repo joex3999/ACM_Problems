@@ -3,13 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class CF_388A_FoxAndBoxAccumulation {
@@ -28,7 +22,7 @@ public class CF_388A_FoxAndBoxAccumulation {
 		boolean[] bools = new boolean[n];
 		bools[0] = true;
 
-		loop: for (int i = 0; true; i++) {
+		loop: for (; true;) {
 			int taken = 1 ;
 			for (int j = index+1; j < n; j++) {
 				if(!bools[j]){

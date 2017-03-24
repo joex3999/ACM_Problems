@@ -1,6 +1,7 @@
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 public class HR_BonAppetit {
 public static void main(String[]args)throws Exception {
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -12,7 +13,7 @@ public static void main(String[]args)throws Exception {
 
 	for(int i =0 ; i<n;i++){
 		if(i==k){
-			String useless = st.nextToken();
+			st.nextToken();
 			continue;
 	
 		}AnnaShouldPay+=Integer.parseInt(st.nextToken());

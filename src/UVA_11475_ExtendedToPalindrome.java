@@ -39,11 +39,7 @@ String s = sc.nextLine();
 		StringBuilder sb1 = new StringBuilder();
 		sb.append(s);
 		
-		boolean zero = false;
-
-		int max = Integer.MIN_VALUE;
-		int index = 0;
-int value = arr[arr.length-1];
+		int value = arr[arr.length-1];
 sb1.append(reverse.substring(value, reverse.length()));
 sb.append(sb1+"\n");
 

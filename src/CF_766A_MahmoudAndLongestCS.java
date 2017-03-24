@@ -3,13 +3,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class CF_766A_MahmoudAndLongestCS {
@@ -40,14 +33,13 @@ public class CF_766A_MahmoudAndLongestCS {
 			return dp[index1][index2];
 		int first;
 		int second;
-		int third;
 		if (arr1[index1] != arr2[index2]) {
 			first = 1 + solve(index1 + 1, index2 + 1);
 			second = solve(index1 + 1, index2 + 1);
 		} else {
 			first = solve(index1 + 1, index2 + 1);
 			second = solve(index1, index2 + 1);
-			third = solve(index1 + 1, index2);
+			solve(index1 + 1, index2);
 		}
 		return dp[index1][index2] = Math.max(first, Math.max(second, 0));
 	}

@@ -58,7 +58,6 @@ public static void main (String[]args)throws Exception{
 	while((f=br.readLine())!=null){
 		String [] line = f.split(" ");
 		String s = line[0];
-		String result = s;
 		boolean mirror = isMirror(s);
 		boolean pal = isPalindrome(s);
 System.out.println(mirror);

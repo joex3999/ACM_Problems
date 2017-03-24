@@ -63,6 +63,7 @@ public class UselessTilePackers {
 			y = b;
 		}
 
+		@Override
 		public int compareTo(Point p) {
 			if (Math.abs(x - p.x) > EPS)
 				return x > p.x ? 1 : -1;
@@ -149,7 +150,7 @@ public class UselessTilePackers {
 		int counter = 1 ;
 		while ((s = Integer.parseInt(br.readLine())) != 0) {
 			Point[] points = new Point[s]; // check the extra point problem ;
-			Point lel = new Point(0, 0);
+			new Point(0, 0);
 		
 			for (int i = 0; i < s; i++) {
 
@@ -159,7 +160,6 @@ public class UselessTilePackers {
 				Point g = new Point(x, y);
 				points[i] = g;
 				if (i == 0) {
-					lel = g;
 				}
 			}
 

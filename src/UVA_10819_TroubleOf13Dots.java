@@ -44,7 +44,7 @@ public class UVA_10819_TroubleOf13Dots {
 public static void main(String[]args)throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	String s = null ;
-	StringBuilder sb = new StringBuilder();
+	new StringBuilder();
 	while((s=br.readLine())!=null){
 		StringTokenizer st = new StringTokenizer(s);
 		int budget = Integer.parseInt(st.nextToken());

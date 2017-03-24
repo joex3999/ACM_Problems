@@ -15,6 +15,7 @@ import java.io.InputStreamReader;
 
 		public Point(double a, double b) { x = a; y = b; }  
 		
+		@Override
 		public int compareTo(Point p)
 		{
 			if(Math.abs(x - p.x) > EPS) return x > p.x ? 1 : -1;
@@ -94,7 +95,7 @@ static class Rectangle {
 		int Area2 =  (int)(first.area() +second.area()- Area1-Area1);
 		int Area2H =  (int)(first.area() +second.area()-Area1);
 	
-				int Area3 = (int) (100*100 - Area2H) ;
+				int Area3 = 100*100 - Area2H ;
 		if(Area1 == first.area()){
 			Area2 = (int)(second.area()-Area1);
 		}

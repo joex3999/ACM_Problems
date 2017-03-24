@@ -33,6 +33,7 @@ public class CF617 {
 
 		public Point(double a, double b) { x = a; y = b; }  
 		
+		@Override
 		public int compareTo(Point p)
 		{
 			if(Math.abs(x - p.x) > EPS) return x < p.x ? 1 : -1;

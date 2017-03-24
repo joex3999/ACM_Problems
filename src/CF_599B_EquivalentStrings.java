@@ -1,6 +1,6 @@
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 public class CF_599B_EquivalentStrings {
 static public boolean recurse(String a ,String b){
 	System.out.println("oi");

@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 public class theresTreasure {
 public static void main(String []args)throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-   String s = (String )br.readLine();
+   String s = br.readLine();
    int ctr = 1;
    while(!s.equals("END")){
 	   double xSoFar = 0 ;
@@ -57,7 +57,7 @@ public static void main(String []args)throws Exception{
 	System.out.println();
 	System.out.println();
 	
-s=(String) br.readLine();
+s=br.readLine();
    }
 }
 }

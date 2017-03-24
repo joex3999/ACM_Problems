@@ -13,7 +13,7 @@ public class XUVA_417_WordIndex {
 
 
 	    public static void main(String[] args) {
-	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	        new BufferedReader(new InputStreamReader(System.in));
 	        Scanner sc = new Scanner(System.in);
 	        HashMap<String, Integer> temp = new HashMap<String, Integer>();
 	        int ind = 1;

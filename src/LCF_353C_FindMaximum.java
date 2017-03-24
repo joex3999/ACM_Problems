@@ -1,11 +1,3 @@
-import java.util.*;
-import java.io.*;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-
-import java.util.*;
 // read code 
 public class LCF_353C_FindMaximum {
 	public static void main(String[] args)throws Exception{

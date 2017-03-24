@@ -6,7 +6,6 @@ public class CF_719B_AnatolyAndCockroaches {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
-		boolean[] taken = new boolean[n];
 		char[] arr = br.readLine().toCharArray();
 		int c1 = 0;
 		int c2 = 0;

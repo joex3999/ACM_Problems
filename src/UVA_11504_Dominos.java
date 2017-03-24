@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
-import java.util.StringTokenizer;
 
 public class UVA_11504_Dominos {
 

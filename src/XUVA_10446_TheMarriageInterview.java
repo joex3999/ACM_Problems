@@ -34,8 +34,7 @@ anothersave[n][back]= count ;
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int casee = 0;
-		StringBuilder sb = new StringBuilder();
+		new StringBuilder();
 		saved = new long[63][63];
 anothersave = new long[63][63];
 		for (int i = 0; i <= 60; i++){

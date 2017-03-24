@@ -74,7 +74,7 @@ public class CF_429B_WorkingOut {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
 		m = sc.nextInt();
-		arr = new long[(int) n][(int)m];
+		arr = new long[n][m];
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++)
 				arr[i][j] = sc.nextInt();

@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class CF_382A {
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		sc.nextInt();
 		int m = sc.nextInt();
 	char[] arr = sc.nextLine().toCharArray();
 int firstPos = 0 ;

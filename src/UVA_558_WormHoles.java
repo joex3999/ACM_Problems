@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Stack;
 import java.util.StringTokenizer;
 
 
@@ -53,6 +52,7 @@ public class UVA_558_WormHoles {
 			cost = b;
 		}
 		
+		@Override
 		public int compareTo(Edge e)
 		{
 			if(cost != e.cost)

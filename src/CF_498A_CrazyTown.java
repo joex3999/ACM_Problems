@@ -14,6 +14,7 @@ public class CF_498A_CrazyTown {
 
 		public Point(double a, double b) { x = a; y = b; }  
 		
+		@Override
 		public int compareTo(Point p)
 		{
 			if(Math.abs(x - p.x) > EPS) return x > p.x ? 1 : -1;
@@ -155,10 +156,6 @@ public static void main(String []args)throws Exception{
 		int a = Integer.parseInt(line[0]);
 		int b = Integer.parseInt(line[1]);
 		int c = Integer.parseInt(line[2]);
-		int A =0 ;
-		int B =0;
-		int C =0 ;
-		
 		if(b!=0){
 		Line l =  new Line(new Point(0,-c),(-a/b));
 		lines.add(l);	

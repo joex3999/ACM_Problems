@@ -1,5 +1,6 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class CF_158B_Taxi {
 	public static void main(String[] args) throws Exception {
@@ -16,7 +17,6 @@ public class CF_158B_Taxi {
 		int numberOf3s = 0;
 		int result = 0;
 		for (int i = 0; i < n; i++) {
-			int now = arr[i];
 			if (arr[i] == 1) {
 				if (numberOf3s > 0){
 					numberOf3s--;

@@ -1,6 +1,8 @@
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 public class ECPC_2015_B {
 public static void main(String[]args)throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,7 +23,7 @@ while(T-->0){
 		char answer = st.nextToken().charAt(0);
 		char status = st.nextToken().charAt(0);
 		switch(status){
-		case 'F': falseAnswers[j][((int)answer)-65] = true ; falseNumber[j]++;break;
+		case 'F': falseAnswers[j][(answer)-65] = true ; falseNumber[j]++;break;
 		case 'T': answers[j]=answer;break;
 		}
 	

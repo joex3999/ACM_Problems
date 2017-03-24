@@ -66,7 +66,7 @@ public class UVA_11348_Exhibition {
 		}
 		
 		for(int i =0 ; i <uniques.length;i++){
-		 String format = String.format(" %.6f",((double) uniques[i]/totaluniques)*100);
+		 String format = String.format(" %.6f",(uniques[i]/totaluniques)*100);
 		 format+="%";
 		 sb.append(format);
 		}

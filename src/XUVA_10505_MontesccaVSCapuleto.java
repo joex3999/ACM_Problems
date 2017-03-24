@@ -70,7 +70,7 @@ public class XUVA_10505_MontesccaVSCapuleto {
 						break;
 				}else{
 					color[i]=0;
-					boolean f = bipartitieCheck(i);
+					bipartitieCheck(i);
 				}
 				}
 			}

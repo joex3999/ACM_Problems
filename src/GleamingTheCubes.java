@@ -39,10 +39,6 @@ public class GleamingTheCubes {
 		int smallestdy = 999999999 ;
 		int greatestz = -99999;
 		int smallestdz= 99999999;
-		int smallestz = -999999;
-		int smallestx =-9999999;
-		int smallesty =-9999999;
-		
 		while (!(s = br.readLine()).equals("0")) {
 			String []ss = s.split(" ");
 			int n = Integer.parseInt(ss[0]);

@@ -80,7 +80,7 @@ public class UVA_4410_RACING {
 			stack = new Stack<Integer>();
 			for (int i = 0; i < V; i++) {
 				adjList[i] = new ArrayList<Integer>();
-				Arrays.fill(adjMatrix[i], (int) 1000000000);
+				Arrays.fill(adjMatrix[i], 1000000000);
 
 			}
 			for (int i = 0; i < m; i++) {

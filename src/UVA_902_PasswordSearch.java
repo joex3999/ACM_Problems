@@ -1,9 +1,9 @@
 
-import java.util.Scanner;
 import java.util.HashMap;
-import java.util.Set;
-import java.util.Map;
 import java.util.Iterator;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
 // Sol : https://github.com/milon/UVa/blob/master/Volume-9/UVa_902.java 
 // same approach exactly but gave Runtime verdict ;
 public class UVA_902_PasswordSearch{

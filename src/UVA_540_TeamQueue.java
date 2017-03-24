@@ -49,7 +49,7 @@ map = new HashMap<Integer,Integer>();
 for(int i =0 ; i<t;i++){
 	StringTokenizer st = new StringTokenizer(br.readLine());
 	listOfQueues[i] = new LinkedList<Integer>();
-	int useless = Integer.parseInt(st.nextToken());
+	Integer.parseInt(st.nextToken());
 while(st.hasMoreTokens()){
 	map.put(Integer.parseInt(st.nextToken()), i);
 }

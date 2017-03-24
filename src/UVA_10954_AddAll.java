@@ -2,7 +2,6 @@
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
@@ -10,11 +9,10 @@ public class UVA_10954_AddAll {
 public static void main(String[]args)throws Exception{
 	
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	int n = 0 ;
 	StringBuilder sb = new StringBuilder();
 	boolean first = true ;
 	PriorityQueue<Integer> queue ;
-	while((n=Integer.parseInt(br.readLine()))!=0){
+	while((Integer.parseInt(br.readLine()))!=0){
 		int total = 0 ; 
 		queue = new PriorityQueue<Integer>();
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -23,7 +21,7 @@ public static void main(String[]args)throws Exception{
 		}
 		
 		while(queue.size()!=1){
-			int cost = (int)queue.poll()+queue.poll();
+			int cost = queue.poll()+queue.poll();
 			total+=cost;
 			queue.add(cost);
 		}

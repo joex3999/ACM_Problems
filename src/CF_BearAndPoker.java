@@ -17,12 +17,7 @@ public class CF_BearAndPoker {
 	    }
 	    return a;
 	}
-	private static long lcm(long a, long b)
-	{
-	    return a * (b / gcd(a, b));
-	}
-
-public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 	Scanner sc = new Scanner(System.in);
 	int n = sc.nextInt();
 	

@@ -26,7 +26,7 @@ public class UVA_10258_ContestScoreBoard {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int T = Integer.parseInt(sc.nextLine());
+        Integer.parseInt(sc.nextLine());
         String s = sc.nextLine();
         Contestants[] con = init();
         while (sc.hasNext()) {
@@ -89,7 +89,8 @@ class Contestants implements Comparable<Contestants> {
         return this.penalty[index];
     }
 
-    public int compareTo(Contestants o) {
+    @Override
+	public int compareTo(Contestants o) {
         if (!this.participate) {
             return 1;
         }

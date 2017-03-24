@@ -1,7 +1,7 @@
 
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class CF_723B_TextDocumentAnalysis {
 	public static void main(String[] args) throws Exception {

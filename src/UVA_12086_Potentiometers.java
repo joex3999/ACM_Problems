@@ -2,7 +2,6 @@
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class UVA_12086_Potentiometers {
 

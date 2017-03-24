@@ -1,6 +1,6 @@
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 public class TC_ABBAdiv1_canObtain {
 public static void main(String[]args)throws Exception{
 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

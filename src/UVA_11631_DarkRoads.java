@@ -49,6 +49,7 @@ public class UVA_11631_DarkRoads {
 			cost = b;
 		}
 		
+		@Override
 		public int compareTo(Edge e)
 		{
 			if(cost != e.cost)

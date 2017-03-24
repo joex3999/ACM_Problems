@@ -3,12 +3,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class CF_518A_VitalyAndStrings {
@@ -17,10 +11,10 @@ public class CF_518A_VitalyAndStrings {
 		String result = "";
 		int index = -1 ;
 		for(int i = length-1 ; i>=0;i--){
-			if((int)g.charAt(i)==122){
+			if(g.charAt(i)==122){
 				result ="a"+result;
 			}else{
-				int val = (int)g.charAt(i);
+				int val = g.charAt(i);
 				result=(char)(val+1)+""+result;
 				index=i;
 				break;

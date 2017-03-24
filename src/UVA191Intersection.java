@@ -16,6 +16,7 @@ import java.io.InputStreamReader;
 			return x < Math.max(p.x, q.x) + EPS && x + EPS > Math.min(p.x, q.x)
 					&& y < Math.max(p.y, q.y) + EPS && y + EPS > Math.min(p.y, q.y);
 		}
+		@Override
 		public int compareTo(Point p)
 		{
 			if(Math.abs(x - p.x) > EPS) return x > p.x ? 1 : -1;

@@ -11,7 +11,7 @@ public class CF_757B_BashsBigDay {
 public static void main(String[] args) throws Exception {
 	Scanner sc = new Scanner(System.in);
 	int n = sc.nextInt();
-	HashMap<Integer,Integer>map = new HashMap<Integer,Integer>();
+	new HashMap<Integer,Integer>();
 	int answer =1;
 	int[]roots = new int[100050];
 	Arrays.fill(roots, 0);

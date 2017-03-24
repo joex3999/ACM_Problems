@@ -1,10 +1,12 @@
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Stack;
+import java.util.StringTokenizer;
 public class CF_727A_Transformation {
 public static void main(String[] args) throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	Stack<Integer>stack  = new Stack<Integer>();
+	new Stack<Integer>();
 	StringTokenizer st = new StringTokenizer(br.readLine());
 	int begin = Integer.parseInt(st.nextToken());
 	int end = Integer.parseInt(st.nextToken());

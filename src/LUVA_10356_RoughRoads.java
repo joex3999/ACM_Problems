@@ -61,6 +61,7 @@ public class LUVA_10356_RoughRoads {
 			cost = b;
 		}
 		
+		@Override
 		public int compareTo(Edge e)
 		{
 			if(cost != e.cost)
@@ -78,6 +79,7 @@ public class LUVA_10356_RoughRoads {
 				cost = b;
 			}
 			
+			@Override
 			public int compareTo(Edge e)
 			{
 				if(cost != e.cost)

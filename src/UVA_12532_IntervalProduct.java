@@ -1,5 +1,5 @@
-import java.io.*;
-import java.math.BigInteger;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Arrays;
   
 public class UVA_12532_IntervalProduct {

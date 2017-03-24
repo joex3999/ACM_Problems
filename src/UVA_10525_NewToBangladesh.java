@@ -2,7 +2,6 @@
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 // correct answer + fault in udebug but WA verdict so i submitted : https://saicheems.wordpress.com/2013/07/27/uva-10525-new-to-bangladesh/
 public class UVA_10525_NewToBangladesh {
@@ -61,11 +60,8 @@ while(c-->0){
 	int m = Integer.parseInt(st.nextToken());
 	V= n ;
 	adjMatrix = new Pair [n][n];
-	Pair [] g = new Pair [n];
 	int inf = (int) Double.POSITIVE_INFINITY;
-	Pair f = new Pair(inf,inf);
-	//Arrays.fill(g, f); // change this approach
-	//Arrays.fill(adjMatrix, g);
+	new Pair(inf,inf);
 	
 for(int i =0 ; i<V;i++){
 	for (int vv =0 ; vv<V;vv++){

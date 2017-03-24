@@ -12,7 +12,7 @@ public static void main(String[]args)throws Exception {
 		String word = br.readLine();
 		char [] arr = word.toCharArray();
 		if(arr.length>10){
-			System.out.println((char)arr[0]+""+(arr.length-2)+""+(char)arr[arr.length-1]);
+			System.out.println(arr[0]+""+(arr.length-2)+""+arr[arr.length-1]);
 			
 		}else{
 			System.out.println(word);

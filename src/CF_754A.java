@@ -11,7 +11,7 @@ public class CF_754A {
 		int n = sc.nextInt();
 	boolean in= false ;
 		int arr [] = new int [n];
-		StringBuilder answer2 = new StringBuilder();
+		new StringBuilder();
 		StringTokenizer st = new StringTokenizer(sc.nextLine());
 	int sum = 0 ;
 		for(int i = 0 ; i<n;i++){

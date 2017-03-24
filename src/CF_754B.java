@@ -8,7 +8,6 @@ public class CF_754B {
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(System.in);
 		char[][] arr = new char[4][4];
-		boolean yes = false;
 		for (int i = 0; i < 4; i++) {
 			char[] sub = sc.nextLine().toCharArray();
 			for (int j = 0; j < 4; j++) {

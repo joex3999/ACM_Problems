@@ -49,7 +49,7 @@ public class UVA_10113_ExchangeRates {
 	public static void main(String[]args)throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	
-StringBuilder sb = new StringBuilder();
+new StringBuilder();
 ArrayList<Pair> storage = new ArrayList<Pair>();
 int tillNow  = 0 ;
 HashSet<String> set = new HashSet<String>();

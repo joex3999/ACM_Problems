@@ -1,5 +1,5 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 public class CF_112A_PetyaAndStrings {
 public static void main(String[] args)throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

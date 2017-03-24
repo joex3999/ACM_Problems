@@ -3,9 +3,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.StringTokenizer;
-import java.io.*;
-import java.util.*;
 
 public class CF_538B_QuasiNumbers {
 	static int []dp;
@@ -27,9 +26,7 @@ public class CF_538B_QuasiNumbers {
 	}
 public static void main(String[] args) throws Exception {
 	Scanner sc = new Scanner(System.in);
-	int g = 0 ;
-
- list = new ArrayList<Integer>();
+	list = new ArrayList<Integer>();
 	dp = new int [10000000];
 	for(int i = 0 ; i<1000000;i++){
 		if(can(i)){
@@ -44,7 +41,7 @@ Arrays.fill(dp,-1);
 }
 public static boolean can(int i){
 
-	for(int j = 0 ; i>1;j++){
+	for( ; i>1;){
 	
 if(i%10!=0 &&i%10!=1)
 	return false ;

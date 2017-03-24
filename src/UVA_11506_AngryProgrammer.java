@@ -28,7 +28,6 @@ public class UVA_11506_AngryProgrammer {
 			Arrays.fill(p, -1);
 			p[s] = s;
 			q.add(s);
-			int g= 0 ;
 			while(!q.isEmpty())
 			{
 				
@@ -78,7 +77,7 @@ was incorrectly used by some earlier flow(s) -j :- CP
 	}
 public static void main(String[]args)throws Exception{
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	StringBuilder sb = new StringBuilder();
+	new StringBuilder();
 	while(true){
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int m = Integer.parseInt(st.nextToken());

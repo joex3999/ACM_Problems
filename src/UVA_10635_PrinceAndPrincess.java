@@ -1,6 +1,7 @@
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 // Solution by Aid of : http://www.programering.com/a/MjMwMTMwATU.html
 public class UVA_10635_PrinceAndPrincess {
 public static void main(String[] args)throws Exception{
@@ -10,9 +11,9 @@ public static void main(String[] args)throws Exception{
 	int counter = 0;
 	while(t-->0){
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		int n = Integer.parseInt(st.nextToken());
-		int p = Integer.parseInt(st.nextToken());
-		int q = Integer.parseInt(st.nextToken());
+		Integer.parseInt(st.nextToken());
+		Integer.parseInt(st.nextToken());
+		Integer.parseInt(st.nextToken());
 	 st = new StringTokenizer(br.readLine());
 	 String first = "";
 	 while(st.hasMoreTokens())

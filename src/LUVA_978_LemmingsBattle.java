@@ -3,7 +3,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
@@ -14,8 +13,8 @@ public class LUVA_978_LemmingsBattle {
 
 		@Override
 		public int compare(Integer first, Integer second) {
-			int x = (int) first;
-			int y = (int) second;
+			int x = first;
+			int y = second;
 			if (x > y) {
 				return -1;
 			}
@@ -34,7 +33,7 @@ public class LUVA_978_LemmingsBattle {
 		StringBuilder sb = new StringBuilder();
 		while (n-- > 0) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
-			int B = Integer.parseInt(st.nextToken());
+			Integer.parseInt(st.nextToken());
 			int SG = Integer.parseInt(st.nextToken());
 			int SB = Integer.parseInt(st.nextToken());
 			Comparator<Integer> comm = new compare();

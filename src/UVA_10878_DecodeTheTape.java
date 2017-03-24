@@ -2,7 +2,6 @@
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class UVA_10878_DecodeTheTape {
 	public static String BinaryToString(StringBuilder binary) {

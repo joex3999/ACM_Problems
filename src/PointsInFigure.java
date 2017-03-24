@@ -60,6 +60,7 @@ abstract boolean contains(Point p);
 			y = b;
 		}
 
+		@Override
 		public int compareTo(Point p) {
 			if (Math.abs(x - p.x) > EPS)
 				return x > p.x ? 1 : -1;
@@ -102,6 +103,7 @@ abstract boolean contains(Point p);
 
 			return d + EPS < r ? 1 : Math.abs(d - r) < EPS ? 0 : -1;
 		}
+		@Override
 		boolean contains(Point p ){
 			double d = p.dist(c);
 			if(d+EPS<r)
@@ -129,6 +131,7 @@ return false ;
 			return (ur.x - ll.x) * (ur.y - ll.y);
 		}
 
+		@Override
 		boolean contains(Point p) {
 			return p.x < ur.x + EPS && p.x + EPS > ll.x && p.y < ur.y + EPS
 					&& p.y + EPS > ll.y && notOnBorder(p);
@@ -161,6 +164,7 @@ return false ;
 			ca = c.dist(a);
 		}
 
+		@Override
 		boolean contains(Point p) {
 			// a = p1 b = p2 c = p3
 			double alpha = ((b.y - c.y) * (p.x - c.x) + (c.x - b.x)

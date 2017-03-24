@@ -23,6 +23,7 @@ public class XUVA_837_LightandTransparencies {
 		
 		public Point(double a, double b) { x = a; y = b; }  
 		
+		@Override
 		public int compareTo(Point p)
 		{
 			if(Math.abs(x - p.x) > EPS) return x > p.x ? 1 : -1;
@@ -120,7 +121,7 @@ public static void main (String []args)throws Exception{
 	int n = Integer.parseInt(br.readLine());
 	while(n--!=0){
 		String result = "" ;
-		String useless = br.readLine();
+		br.readLine();
 		int num = Integer.parseInt(br.readLine());
 		LineSegment [] lines = new LineSegment [num];
 		double [] xaxis = new double [num*2];
@@ -138,9 +139,7 @@ public static void main (String []args)throws Exception{
 			
 		}
 		Arrays.sort(xaxis);
-	double lastfactor = 0 ;
-		double factor = 1.000 ;
-		int counter = 0 ;
+	double factor = 1.000 ;
 		result = result + "\n-inf " + xaxis[0] + " 1.000\n";
 		for (int i =0 ; i<xaxis.length;i++){
 			Point p1 = new Point(xaxis[i],0);

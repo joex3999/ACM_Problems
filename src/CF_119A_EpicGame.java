@@ -24,7 +24,7 @@ public static void main(String[] args) throws Exception {
 	int n = sc.nextInt();
 for(int i =0 ; true ;i++){
 	if(i%2==0){
-		long s = gcd((long)a,(long)n);
+		long s = gcd(a,n);
 
 		if(s<=n){
 			n-=s;
@@ -33,7 +33,7 @@ for(int i =0 ; true ;i++){
 			return;
 		}
 	}else{
-		long s = gcd((long)b,(long)n);
+		long s = gcd(b,n);
 
 		if(s<=n){
 			n-=s;
